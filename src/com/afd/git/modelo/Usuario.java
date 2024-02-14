@@ -1,9 +1,12 @@
 package com.afd.git.modelo;
 
+import java.time.LocalDate;
+
 public class Usuario {
 
 	private String nombre;
 	private String clave;
+	private LocalDate fechaNacimiento;
 
 	public Usuario(String nombre, String clave) {
 		this.nombre = nombre;
